@@ -1,4 +1,4 @@
-# README for FuzzyEmbeddingMatch
+# FuzzyEmbeddingMatch.jl
 
 ## Overview
 The `FuzzyEmbeddingMatch` module is designed to facilitate fuzzy string matching by leveraging embeddings. It primarily consists of structures and functions to embed strings, calculate similarities between these embeddings, and find the best or all matches within a set of candidates. Key components include `EmbeddedString`, `MatchCandidate`, `bestmatch`, and `allmatches`.
