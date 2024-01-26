@@ -85,12 +85,3 @@ Output:
 ```plaintext
 Best match: MatchCandidate("Example string", "Example string", 0.9999999999999998)
 ```
-
-## Notes
-- 
-- The `cosinesimilarity` function is a key component in computing the match score.
-- ProgressMeter is utilized in `getembeddings` for visual progress indication.
-
----
-
-Ensure to have the required Julia packages installed and import the `FuzzyEmbeddingMatch` module to begin using these functionalities in your projects.
