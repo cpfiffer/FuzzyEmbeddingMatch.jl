@@ -33,7 +33,7 @@ ENV["OPENAI_API_KEY"] = "........" # Replace this with your key
 - `MatchCandidate`: A candidate for matching, containing two strings, their embeddings, and a similarity score.
 
 ### Key Functions
-- `embed**: Embeds a string using `aiembed` from `PromptingTools.jl`.
+- `embed`: Embeds a string using `aiembed` from `PromptingTools.jl`.
 - `corpus`: Generates a corpus of embedded strings.
 - `getembeddings`: Returns embeddings for a vector of strings.
 - `cosinesimilarity`: Calculates cosine similarity between two embeddings.
