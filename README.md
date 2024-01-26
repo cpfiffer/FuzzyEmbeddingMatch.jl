@@ -59,6 +59,14 @@ for match in matches
 end
 ```
 
+Output:
+
+```plaintext
+MatchCandidate("Example string", "Sample text", 0.9022957888579418)
+MatchCandidate("Example string", "Example string", 0.9999999999999998)
+MatchCandidate("Example string", "Another example", 0.8847227646389876)
+```
+
 ### Using `bestmatch`
 ```julia
 # Example string and candidates
@@ -70,6 +78,12 @@ best_match = bestmatch(thing, candidates)
 
 # Output the best match
 println("Best match: ", best_match)
+```
+
+Output:
+
+```plaintext
+Best match: MatchCandidate("Example string", "Example string", 0.9999999999999998)
 ```
 
 ## Notes
