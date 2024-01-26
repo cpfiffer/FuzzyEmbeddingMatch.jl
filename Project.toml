@@ -1,0 +1,11 @@
+name = "FuzzyEmbeddingMatch"
+uuid = "3f13813c-b3c5-46a6-9f94-8bb23878de35"
+authors = ["Cameron Pfiffer <cameron@pfiffer.org>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Memoize = "c03570c3-d221-55d1-a50c-7939bbd78826"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+PromptingTools = "670122d1-24a8-4d70-bfce-740807c42192"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
